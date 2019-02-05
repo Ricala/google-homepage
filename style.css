@@ -1,0 +1,22 @@
+main {
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+.navigation {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+
+.leftnav {
+    padding: 30px;
+}
+
+.rightnav {
+
+}
