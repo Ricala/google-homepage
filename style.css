@@ -55,7 +55,7 @@ input {
     border:none;
 }
 
-input[type="submit"]{
+input[type="button"]{
     text-align: center;
     box-sizing: border-box;
     background-color: #f2f2f2;
