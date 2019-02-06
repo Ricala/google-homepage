@@ -4,19 +4,45 @@ main {
 
 body {
     font-family: arial, sans-serif;
+    width: 100%;
 }
 
-.navigation {
-    display: inline-block;
-    padding-left: 15px;
+a {
     color: #000;
     opacity: 0.75;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
 }
 
-.leftnav {
-    padding: 30px;
+.left {
+    grid-area: 1 / 1 / 2 / 2;
 }
 
-.rightnav {
+.right {
+    grid-area: 1 / 3 / 2 / 4;
+    float:right;
+}
 
+#logo {
+    height:100px;
+    width:300px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+input {
+    margin-top: 2%;
+    width: 420px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background:#fff;
+    box-shadow: 0.5px 1.5px 2px 0.01px rgba(0,0,0,0.30);
+    transition: box-shadow 0.25s ease-in-out;
+    outline: 0;
+    border:none;
 }
