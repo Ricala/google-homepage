@@ -4,6 +4,7 @@ main {
 
 body {
     font-family: arial, sans-serif;
+    font-size: 15px;
     width: 100%;
     height:100%;
     text-align: center;
@@ -74,7 +75,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    color: rgba(34,34,34,.75);
+    color: rgba(54, 53, 53, 0.555);
     background: #9b999936;
     border-top: 1px solid #e4e4e4;
     margin: 5px;
