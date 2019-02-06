@@ -5,6 +5,7 @@ main {
 body {
     font-family: arial, sans-serif;
     width: 100%;
+    text-align: center;
 }
 
 a {
@@ -15,13 +16,18 @@ a {
     padding: 10px;
 }
 
-.left {
-    grid-area: 1 / 1 / 2 / 2;
+#rightcontent {
+    display:flex;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    align-items:center;
 }
-
-.right {
-    grid-area: 1 / 3 / 2 / 4;
-    float:right;
+#leftcontent {
+    display:flex;
+    position: absolute;
+    left: 5px;
+    top:15px;
 }
 
 #logo {
@@ -45,4 +51,17 @@ input {
     transition: box-shadow 0.25s ease-in-out;
     outline: 0;
     border:none;
+}
+
+input[type="button"]{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    display:inline-block;
+    width: 150px;
+    font-size: 15px;
+    margin: 20px 10px;
+    box-shadow:none;
 }
